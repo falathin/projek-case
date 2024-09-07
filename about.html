@@ -21,16 +21,12 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
     <!-- Libraries Stylesheet -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-pF6AWtgGLkKCFnABl12GRDTXUIfqTX5w7zKJzKkexy23XcC4dbKZfubZn5GyIcvUOSF1yK6T1rB10K8SlXwAHA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
-    
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
 </head>
@@ -50,6 +46,7 @@
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
                 <a href="index.html" class="navbar-brand p-0">
+                    <!-- <h1 class="m-0">BizConsult</h1> -->
                     <img src="img/logo/logo.png" alt="Logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -57,8 +54,8 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0">
-                        <a href="index.html" class="nav-item nav-link active">Beranda</a>
-                        <a href="about.html" class="nav-item nav-link">Tentang</a>
+                        <a href="index.html" class="nav-item nav-link">Beranda</a>
+                        <a href="about.html" class="nav-item nav-link active">Tentang</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Keahlian</a>
                             <div class="dropdown-menu m-0">
@@ -83,17 +80,15 @@
                 </div>
             </nav>
 
-            <div class="container-xxl bg-primary hero-header">
-                <div class="container">
-                    <div class="row g-5 align-items-center  animate__bounce animated">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="text-white mb-4">SMK Lentera Bangsa Karawang</h1>
-                            <p class="text-white pb-3">Adalah Sebuah Sekolah Menengah Kejuruan (SMK) Yang Berada Di Kabupaten Karawang Jawa Barat, Indonesia</p>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <img class="img-fluid border border-3 rounded border-light shadow" src="img/profile/lb.jpeg" alt="Foto Halaman SMK Lentera Bangsa">
-                        </div>
-                    </div>
+            <div class="container-xxl bg-primary page-header">
+                <div class="container text-center">
+                    <h1 class="text-white animated zoomIn mb-3">Tentang LENSA</h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a class="text-white" href="index.html">Beranda</a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Tentang Lensa</li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -104,20 +99,27 @@
         <div class="container-xxl py-6">
             <div class="container">
                 <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow tada" data-aos="fade-right" data-wow-delay="0.1s">
-                        <img class="img-fluid border border-success border-3 shadow-lg" src="img/profile/kepsek.jpg">
+                    <div class="col-lg-6 wow zoomIn" data-wow-delay="0.1s">
+                        <img class="img-fluid" src="img/about/profile.jpg">
                     </div>
-                    <div class="col-lg-6 wow animate__slideInUp" data-wow-delay="0.1s">
-                        <div class="d-inline-block border rounded-pill text-success px-4 mb-3">Sambutan Kepala Sekolah </div>
-                        <h2 class="mb-4">Dr. Ahmad Jaelani, Drs, MM</h2>
-                        <p align="justify">Bismillahirrahmaanirrohim
-                            Assalamualaikum Warahmatullahi Wabarakatuh. 
-                            Alhamdulillahirobbilalamin, segala puji dipanjatkan kepada Allah SWT atas berkat rahmat dan segala karunia-Nya, kami telah menyelesaikan pembuatan website sekolah dengan alamat www.smklenterabangsa.sch.id. 
-                            Kami mengucapkan selamat datang di halaman website sekolah kami SMK Lentera Bangsa kepada semua pihak, dengan tujuan agar dapat mengakses segala kegiatan/aktifitas, dan fasilitas yang ada di sekolah kami. 
-                            Kami selaku pimpinan sekolah mengucapkan banyak terima kasih kepada tim yang telah mendedikasikan waktu dan fikirannya dalam pembuatan website sekolah ini. 
-                            Saya berharap semoga dengan adanya website ini mampu memberikan informasi dan sebagai ajang media komunikasi yang positif. Mari kita berprestasi dalam setiap kerja keras kita, agar apa yang telah kita kerjakan bisa bermanfaat bagi kemajuan pendidikan di Indonesia. 
-                            Terimakasih yang tiada terhingga saya ucapkan kepada Allah SWT semoga kita selalu ada dalam lindungannya. Amin. 
-                            Wassalamualaikum Warahmatullahi Wabarakatuh.</p>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Tentang Lensa</div>
+                        <h2 class="mb-4">SMK LENTERA BANGSA KARAWANG</h2>
+                        <!-- <p class="mb-4">Sejarah Berdirinya LENSA</p> -->
+                        <div class="row g-3 mb-4">
+                            <div class="col-12 d-flex">
+                                <div class="ms-4">
+                                    <h6>Sebelumnya Bernama Sapta Lestari</h6>
+                                    <span>Di tahun 2003 sebuah Yayasan Pendidikan berbasis Umum bernama Yayasan Saptari mendirikan Sebuah Sekolah Yang Bernama <strong>Smk Sapta lestari</strong> Yang Berada Di Jl.Proklamasi, Rengasjaya, Kec.Rengasdengklok, Kabupaten Karawang, Yang Di Dirikan Oleh Ir.Saptari Yang berdomisili di Jakarta, Izin sekolah Telah di keluarkan oleh Dinas Pendidikan Kabupaten Karawang Pada Tahun 2003 Dengan Nomor : 007/754/TU/2003 pada angkatan pertama dengan Kompetensi Keahlian Teknik Komputer Jaringan (TKJ) sampai dengan tahun 2005. </span>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div class="ms-4">
+                                    <h6>Perubahan Nama Menjadi Lentera Bangsa</h6>
+                                    <span>Seiring Berjalannya waktu ada perubahan yayasan, ditahun 2008 yayasan <strong>Lentera kalbu</strong> dan penetapan perubahan nama sekolah <strong>SMK Sapta Lestari menjadi SMK Lentera Bangsa</strong> yang ditetapkan oleh keputusan bupati nomor: 421.3/Kep-339-Huk/2010 tertanggal 05 Mei 2010 yang ditandatangai oleh bupati Karawang Dadang S Muchtar. Dan sejak tahun 2010 <strong>SMK Sapta Lestari</strong> Berubah Nama Menjadi <strong>SMK Lentera Bangsa</strong> sampai dengan sekarang. Seiring waktu berjalan sejak berdiri <strong>SMK Lentera Bangsa</strong> membuka jurusan dibidang teknologi kendaraan ringan dan teknik komputer jaringan. Dan mulai tahun 2015 jurusan baru dibuka dengan keahlian teknik sepeda motor dan bisnis managemen dengan konsentrasi keahlian perbankan syariah. Saat ini ruang teori yang sebanyak 14 ruangan dan ruang praktek teknik kendaraan ringan sebanyak 3 ruangan sedangkan untuk jurusan teknik komputer jaringan menggunakan 2 ruangan, serta penambahan lahan untuk kegiatan pengembangan dan praktik lainnya seluas m 2</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -125,137 +127,70 @@
         <!-- About End -->
 
 
-        <!-- Newsletter Start -->
-        <!-- Newsletter End -->
-
-
-        <!-- Service Start -->
-        <div class="container-xxl py-6 ">
-            <div class="container">
-                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Keunggulan LENSA</div>
-                    <h2 class="mb-5">5 Alasan Memilih SMK Lentera Bangsa</h2>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow animate__slideInLeft" data-wow-delay="0.1s">
-                        <div class="service-item rounded h-100">
-                            <div class="d-flex justify-content-between">
-                                <div class="service-icon">
-                                    <i class="fa fa-user-tie fa-2x"></i>
-                                    
-                                </div>
-                            </div>
-                            <div class="p-5">
-                                <h5 class="mb-3">Business Research</h5>
-                                <span>Kalian akan dibekali ilmu khusus sesuai minat dan kemampuan untuk mengejar kompetensi diri dalam menghadapi persaingan dunia kerja.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded h-100">
-                            <div class="d-flex justify-content-between">
-                                <div class="service-icon">
-                                    <i class="fa fa-chart-pie fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="p-5">
-                                <h5 class="mb-3">Stretagic Planning</h5>
-                                <span>Kalian akan dibekali semangat kewirausahaan melalui program Teaching Factory yang bekerjasama dengan Honda Astra Motor.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item rounded h-100">
-                            <div class="d-flex justify-content-between">
-                                <div class="service-icon">
-                                    <i class="fa fa-chart-line fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="p-5">
-                                <h5 class="mb-3">Market Analysis</h5>
-                                <span>Kalian akan langsung berkenalan dengang dunia kerja untuk mengasah kompetensi melalui Praktek Kerja Industri.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item rounded h-100">
-                            <div class="d-flex justify-content-between">
-                                <div class="service-icon">
-                                    <i class="fa fa-chart-area fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="p-5">
-                                <h5 class="mb-3">Financial Analaysis</h5>
-                                <span>Gedung representatif guna menunjang kegiatan belajar mengajar yang dilengkapi dengan fasilitas laboratorium dan bengkel kerja untuk praktek.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item rounded h-100">
-                            <div class="d-flex justify-content-between">
-                                <div class="service-icon">
-                                    <i class="fa fa-balance-scale fa-2x"></i>
-                                </div>
-                            </div>
-                            <div class="p-5">
-                                <h5 class="mb-3">legal Advisory</h5>
-                                <span>SMK LENTERA BANGSA akan memberikan beasiswa bagi kalian yang berprestasi dalam bidang akademik.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Service End -->
-
-
         <!-- Features Start -->
         <div class="container-xxl py-6">
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">VISI & MISI LENSA</div>
-                        <h2 class="mb-4">MISI</h2>
-                        <p>Mewujudkan sekolah yang berprestasi berdasarkan iman dan taqwa</p>
+                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Keunggulan LENSA </div>
+                        <h2 class="mb-4">Kenapa Harus LENSA?</h2>
+                        <p>Karena LENSA (Lentera Bangsa) Memiliki Beberapa Keunggulan Di banding Sekolah Lain, Keunggulan tersebut Antara Lain:</p>
                     </div>
                     <div class="col-lg-7">
-                        <br>
-                        <br>
-                    <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.2s">
-                        <h2 class="mb-4">VISI</h2>
-                    </div>
                         <div class="row g-5">
-                            <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                                 <div class="d-flex align-items-center mb-3">
                                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
                                         <i class="fa fa-cubes text-white"></i>
                                     </div>
-                                    <h6 class="mb-0">Bertaqwa terhadap Tuhan Yang Maha Esa</h6>
+                                    <h6 class="mb-0">Terdapat Banyak Beasiswa</h6>
                                 </div>
+                                <span>DI LENSA Kalian Akan Mendapatkan Banyak Sekali Beasiswa Akademik Maupun Non Akademik</span>
                             </div>
-                            <div class="col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.2s">
                                 <div class="d-flex align-items-center mb-3">
                                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
                                         <i class="fa fa-percent text-white"></i>
                                     </div>
-                                    <h6 class="mb-0">Berbudi pekerti luhur</h6>
+                                    <h6 class="mb-0">Fasilitas Lengkap</h6>
                                 </div>
+                                <span>Gedung Dan Peralatan Pratikum Di LENSA Sudah Sangat Lengkap Dan Bersih Tentunya, Di LENSA Juga Sudah Terdapat Kolam Renang Pribadi Bagi Siswa</span>
                             </div>
-                            <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.3s">
                                 <div class="d-flex align-items-center mb-3">
                                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
                                         <i class="fa fa-award text-white"></i>
                                     </div>
-                                    <h6 class="mb-0">Terampil, mandiri, dan memiliki daya saing di tingkat lokal maupun nasional</h6>
+                                    <h6 class="mb-0">Lahan Parkir Pribadi</h6>
                                 </div>
+                                <span>LENSA Sudah Menyediakan Lahan Parkir Yang Luas Bagi Siswa Yang Membawa Kendaraan Pribadi</span>
                             </div>
-                            <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.4s">
                                 <div class="d-flex align-items-center mb-3">
                                     <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
                                         <i class="fa fa-smile-beam text-white"></i>
                                     </div>
-                                    <h6 class="mb-0">Memiliki wawasan yang luas</h6>
+                                    <h6 class="mb-0">Terdapat Kantin Sekolah</h6>
                                 </div>
+                                <span>LENSA Juga Telah Menyediakan Kantin Sekolah Yang Cukup Lengkap Sehingga Siswa Tidak Perlu Keluar Gerbang Untuk Membeli Jajanan Pada Jam Istirahat</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-user-tie text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Terdapat Banyak Ekstrakurikuler</h6>
+                                </div>
+                                <span>Terdapat 15 Ekskul Di LENSA Yang Dapat Dipilih Oleh Siswa, Dan Siswa Dapat Memilih Lebih Dari Satu Ekskul</span>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.6s">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="flex-shrink-0 btn-square bg-primary rounded-circle me-3">
+                                        <i class="fa fa-headset text-white"></i>
+                                    </div>
+                                    <h6 class="mb-0">Memiliki Bank Pribadi</h6>
+                                </div>
+                                <span>LENSA Juga Memiliki Bank Sekolah Pribadi Yang Di Kelola Oleh Jurusan Perbankan Syari'ah Dan Telah Bekerja Sama Dengan Bank BJB</span>
                             </div>
                         </div>
                     </div>
@@ -263,31 +198,6 @@
             </div>
         </div>
         <!-- Features End -->
-
-
-        <!-- Client Start -->
-        <div class="container bg-blue my-6 py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
-              <center> <h2>BINAAN </center>
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-                <div class="owl-carousel client-carousel">
-                    <img class="img-fluid" src="img/company/astra.jpg" alt="">
-                    <img class="img-fluid" src="img/company/axioo.png" alt="">
-                    <img class="img-fluid" src="img/company/bjb.png" alt="">
-                    <img class="img-fluid" src="img/company/inovindo.png" alt="">
-                    <img class="img-fluid" src="img/company/daihatsu.png" alt="">
-                </div>
-            </div>
-        </div>
-        <!-- Client End -->
-
-
-        <!-- Testimonial Start -->
-        <!-- Testimonial End -->
 
 
         <!-- Team Start -->
@@ -334,7 +244,7 @@
                         </div>
                         <div class="col-md-6 text-center text-md-end">
                             <div class="footer-menu">
-							Designed By <a class="border-bottom" href="#">Ibrahim Ahmad Falathin</a>
+							Designed By <a class="border-bottom" href="#">Martinus</a>
 
                             </div>
                         </div>
@@ -349,7 +259,6 @@
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
-
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -360,11 +269,6 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-2M3P2zY0k4eGA1pHs+KXJ9NlXT8l/u0kx6ZkF5XWDbX5K6bHyh1J2A5Ik8hym8rZSmUpYPbDunVTrDH7XQTRVA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script>
-        AOS.init();
-    </script>
-
 </body>
 
 </html>
